@@ -1,0 +1,288 @@
+* {
+    margin: 0;
+}
+
+body {
+    height: 97vh;
+    width: 100vw;
+    background-color: #2C274A;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+header{
+    text-align: center;
+}
+
+.prin {
+    margin: 20px;
+    background-image: linear-gradient(to top, purple, steelblue);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 4em;
+}
+
+.sinopse {
+    border-bottom: 2px solid white;
+}
+
+a {
+    margin: 6px;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 23px;
+    text-decoration: none;
+    color: rgb(167, 18, 187);
+}
+
+a:hover {
+    text-decoration: underline;
+    background-color: rgba(179, 6, 164, 0.253);
+}
+
+span {
+    border: 1px solid black;
+    margin-left: -5px;
+}
+
+aside {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 350px;
+    height: 100vh;
+}
+
+.main {
+    box-shadow: 15px 15px 15px rgb(29, 26, 49);
+    padding: 30px;
+    border-radius: 30px;
+    border: 1px solid white;
+    font-size: 20px;
+    margin: 200px;
+    margin-left: 33vw;
+    margin-top: 100px;
+    color: white;
+    width: 30vw;
+    word-wrap: break-word;
+}
+
+blockquote {
+    padding: 10px;
+}
+
+abbr {
+    text-decoration: none;
+}
+
+.anime {
+    border: 2px solid white;
+    margin-left: 30px;
+    width: 300px;
+    height: 400px;
+    background-image: url(imagens/mob.jpg);
+    background-size: cover;
+}
+
+.sin {
+    border: 1px solid white;
+    width: 320px;
+    margin: 20px;
+    text-align: center;
+    color: white;
+}
+
+.ass {
+    border: 1px solid white;
+    width: 320px;
+    margin: 20px;
+    text-align: center;
+    color:white;
+}
+
+.net {
+    margin-bottom: -5px;
+    display: inline-block;
+    border: none;
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+    background-image: url("imagens/netflix.png");
+}
+
+.as {
+    font-size: 18px;
+    color: white;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.crunch {
+    background-image: url("imagens/crunch.webp");
+    display: inline-block;
+    border: none;
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+}
+
+.shig {
+    box-shadow: 15px 15px 15px rgb(29, 26, 49);
+    margin: 5px;
+    border: 1px solid white;
+    height: 800px;
+    width: 400px;
+}
+
+.pers {
+    color: white;
+    border-bottom: 1px solid white;
+    font-size: 26px;
+}
+
+.mob {
+    margin: 10px;
+    margin-left: 13%;
+    height: 400px;
+    width: 300px;
+    background-image: url("imagens/shigeo.jpeg");
+    background-size: cover;
+}
+
+li {
+    margin: 5px;
+}
+
+.desc {
+    margin-left: 15%;
+    width: 250px;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+.frases {
+    color: white;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    padding: 10px;
+}
+
+.arata {
+    box-shadow: 15px 15px 15px rgb(29, 26, 49);
+    margin: 5px;
+    margin-left: 20vw;
+    border: 1px solid white;
+    height: 800px;
+    width: 400px;
+}
+
+.arataka {
+    margin: 10px;
+    margin-left: 13%;
+    height: 400px;
+    width: 300px;
+    background-image: url("imagens/arataka.webp");
+    background-size: cover;
+}
+
+.recubo {
+    box-shadow: -15px 15px 15px rgb(29, 26, 49);
+    margin: 5px;
+    margin-left: 16vw;
+    border: 1px solid white;
+    height: 800px;
+    width: 400px;
+}
+
+.covi {
+    margin: 10px;
+    margin-left: 13%;
+    height: 400px;
+    width: 300px;
+    background-image: url("imagens/covinhas.jpg");
+    background-size: cover;
+}
+
+.haha {
+    box-shadow: 15px 15px 15px rgb(29, 26, 49);
+    border: 1px solid white;
+    width: 500px;
+    margin: 20px;
+}
+
+.exp {
+    color: white;
+    height: 400px;
+    padding: 10px;
+}
+
+.eps {
+    box-shadow: 15px 15px 15px rgb(29, 26, 49);
+    width: 300px;
+    border: 1px solid white;
+    color: white;
+    margin: 3px;
+}
+
+.tit {
+    color: white;
+    font-weight: 900;
+}
+
+section {
+    float: inline-start;
+}
+
+article {
+    margin: 20px;
+}
+
+.big {
+    box-shadow: 15px 15px 15px rgb(29, 26, 49);
+    overflow: auto;
+    border: 1px solid white;
+    width: 500px;
+    margin: 20px;
+}
+
+.epsB {
+    box-shadow: 15px 15px 15px rgb(29, 26, 49);
+    height: 100px;
+    overflow: auto;
+    color: white;
+    padding: 20px;
+    border: 1px solid white;
+}
+
+.arc {
+    margin-left: 4vw;
+}
+
+.curiosidades {
+    text-align: center;
+    color: white;
+    width: 300px;
+    margin: 30px;
+    margin-left: 8vw;
+    border: 1px solid white;
+    padding: 10px;
+}
+
+.curiosidades1 {
+    text-align: center;
+    color: white;
+    width: 600px;
+    margin: 30px;
+    border: 1px solid white;
+    padding: 10px;
+}
+
+img {
+    margin-left: 50px;
+}
+
+.c3 {
+    width: 500px;
+}
